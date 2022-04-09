@@ -1,0 +1,22 @@
+{
+  "name": "tour-360",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Morteza Sabihi",
+    "email": "mortezasabihi87@gmail.com",
+    "url": "https://mortezasabihi.com"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@types/three": "^0.139.0",
+    "parcel": "^2.4.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "three": "^0.139.2"
+  }
+}
