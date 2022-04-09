@@ -23,7 +23,7 @@ const sizes: { width: number; height: number } = {
   width: window.innerWidth,
   height: window.innerHeight,
 };
-const fov: number = 45;
+const fov: number = 50;
 const aspect: number = sizes.width / sizes.height;
 const near: number = 0.1;
 const far: number = 1000;
